@@ -18,23 +18,27 @@ body{
     box-sizing: border-box;
     box-shadow: 2px 2px 25px gray;
     
+    
 }
 .logo{
-    margin-left: 30px;
+    margin-left: 25px;
+    margin-right: 0px;
 }
 .logo img{
     height: 100px;
     scale: 0.8;
+}
+.logo:hover{
     cursor: pointer;
 }
 .pages{
     font-size: 1.25rem;
     display: flex;
-    flex-wrap: nowrap;
     gap: 50px;
+    margin-right: 0px;
 }
 .pages a{
-    display: inline-block;
+    display: inline;
     padding: 8px 20px;
     border-radius: 20px;
     color: #ffffff;
@@ -54,6 +58,7 @@ body{
     padding: 8px 20px;
     font-size: 1.2rem;
     margin: 20px;
+    margin-left: 125px;
     background-color:rgb(80, 171, 245);
     color: #ffffff;
     border: none;
