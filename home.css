@@ -1,24 +1,28 @@
 *{
     padding: 0;
     margin: 0;
-    
 }
     
 body{
     background-color: rgba(152, 246, 255, 0.304);
 }
 .navbar{
-    position:fixed;
+    position: fixed;
     background-color: rgb(255, 255, 255);
     width: 100%;
-    height:100px ;
+    height:fit-content;
     display: flex;
     align-items: center;
     justify-content:space-between;
     box-sizing: border-box;
     box-shadow: 2px 2px 25px gray;
-    
-    
+    z-index: 100;
+    opacity: 0.9;
+}
+.main{
+    position: absolute;
+    top: 102px;
+    width: 100%;
 }
 .logo{
     margin-left: 25px;
@@ -33,11 +37,15 @@ body{
 }
 .pages{
     font-size: 1.25rem;
-    display: flex;
+    display: inline;
+    flex-wrap: wrap;
     gap: 50px;
-    margin-right: 0px;
 }
 .pages a{
+    height: 5vw;
+    margin-bottom: 10vw;
+    margin-left:1vw ;
+    font-size: 1.25vw;
     display: inline;
     padding: 8px 20px;
     border-radius: 20px;
@@ -68,4 +76,87 @@ body{
     opacity: 0.8; 
     cursor:pointer;
     transform: scale(1.05);
+}
+.main{
+    height: 100%;
+    width: 100%;
+}
+.homelanding{
+    background-color: rgba(152, 246, 255, 0.304);
+    height: 100%;
+    width: 100%;
+}
+.footer{
+    background-color: #fff;
+    
+    width: 100%;
+}
+hr{
+    border: 1px solid gray;
+}
+.mainfooter{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 7vw;
+    
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    
+}
+.div1 img{
+    height: auto;
+    scale: 0.8; 
+}
+.div1{
+    color: grey;
+}
+.div2{
+    
+    padding: 8px;
+}
+.div2 h4{
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    
+}
+.links a{
+    text-decoration: none;
+    color: grey;
+    margin: 6px;
+}
+.div3{
+    
+    display: flex;
+    flex-direction: column;
+}
+.div3 h4{
+    margin: 6px;
+    margin-bottom: 20px;
+}
+.div3 p{
+    margin: 6px;
+    color: grey;
+}
+#help{
+    color:rgb(80, 171, 245) ;
+}
+#rightreserved{
+    width: 60%;
+    border: 0.1px solid grey;
+    margin: 0 auto;
+}
+.rights{
+    text-align: center;
+    padding: 10px;
+}
+.rights p{
+    padding: 5px;
 }
