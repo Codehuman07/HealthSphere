@@ -17,16 +17,15 @@ body{
     justify-content:space-between;
     box-sizing: border-box;
     box-shadow: 2px 2px 25px gray;
+    
 }
 .logo{
-    padding: 4px;
-    margin: 20px;
-    
+    margin-left: 30px;
 }
 .logo img{
-    height: 200px;
-    padding: 4px;
-    
+    height: 100px;
+    scale: 0.8;
+    cursor: pointer;
 }
 .pages{
     font-size: 1.25rem;
@@ -65,6 +64,3 @@ body{
     cursor:pointer;
     transform: scale(1.05);
 }
-
-
-
