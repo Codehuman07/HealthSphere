@@ -3,7 +3,7 @@
     margin: 0;
     font-family: Montserrat, sans-serif;
 }
-/* navbar start  */
+/* navbar start */
 .navbar{
     position: fixed;
     background-color: rgb(255, 255, 255);
@@ -15,7 +15,7 @@
     box-sizing: border-box;
     box-shadow: 2px 2px 25px gray;
     z-index: 100;
-    opacity: 0.97;
+    opacity: 0.95;
 }
 .main{
     position: absolute;
@@ -76,7 +76,6 @@
     cursor:pointer;
     transform: scale(1.05);
 }
-/* navbar end */
 .main{
     width: 100%;
 }
@@ -87,143 +86,50 @@
     box-sizing: border-box;
 }
 .maindiv1{
-    background-color:rgba(152, 246, 255, 0.304) ;
-    height: fit-content;
-    width: 100%;
-    display: flex;
-    box-sizing: border-box;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px;
-}
-.textandbuttons{
-    /* margin-left: 80px;
-    margin-right:20px;
-    margin-top: 30px; */
-    margin-left:10px ;
-    padding-left: 60px;
-    padding-right: 300px;
-    
-}
-.images{
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-.textandbuttons{
-    /* padding: 70px; */
-}
-.textandbuttons h1{
-    font-size: 65px;
-    margin-bottom: 15px;
-}
-.textandbuttons h1 span{
-    color: rgba(85, 159, 255, 0.809);
-}
-.textandbuttons p{
-    font-size: 18px;
-    color: grey;
-    margin-bottom: 50px;
-}
-.buttons a{
-    text-decoration: none;
-    background-color: rgb(49, 225, 166);
-    padding: 25px;
-    margin: 10px;
-    border-radius: 60px;
-    font-size: 20px;
-    color: #fff;
-    font-weight: bold;
-    box-shadow: 1px 5px 10px gray;
-}
-.buttons a:hover{
-    cursor: pointer;
-    opacity: 0.8;
-    transform: scale(1.55);
-}
-.images img{
-    height: 400px;
-    border-radius: 70px;
-    box-shadow: 1px 5px 10px gray;
-}
-.maindiv2{
-    background-color: rgb(244, 255, 255);
-    padding-top:50px ;
-    padding-bottom: 80px;
-}
-.text  h1,.text p{
-    text-align: center;
-}
-.text{
-    margin-bottom: 70px ;
-}
-.text h1{
-    font-size: 40px;
-    margin-bottom: 15px;
-}
-.text p{
-    color: grey;
-    font-size: 20px;
-}
-.row1,.row2{
-    display: flex;
-    justify-content:space-around;
-}
-.box1,.box2,.box3,.box4,.box5,.box6{
-    border: 4px solid rgb(242, 242, 242);
-    width: 25vw;
-    height: 90px;
-    display: flex;
-    flex-direction: column;
-    justify-content:end;
-    padding-left: 20px;
-    padding-bottom: 40px;
-    background-color: #fff;
-    border-radius: 20px;
-    cursor: pointer;
-    margin: 20px;
-    margin-bottom: 40px;
-    box-shadow: 1px 5px 10px gray;
-}
-.box1 p ,.box2 p,.box3 p,.box4 p,.box5 p,.box6 p{
-    color: grey;
-    margin-top: 5px;
-}
-.maindiv3{
-    background-color: rgb(95, 182, 253);
+    background-color:rgba(152, 246, 255, 0.304);
     text-align: center;
     padding: 70px;
 }
-.maindiv3 h1{
-    color: #fff;
+.maindiv1 h1{
+    color: #000000;
     font-size: 45px;
     margin-bottom: 6px;
 }
-.maindiv3 p{
-    color: #fff;
+.maindiv1 p{
+    color: grey;
     font-size: 18px;
     margin-top:15px ;
 }
-.maindiv3 button{
-    padding: 10px 55px;
-    background-color:rgb(49, 225, 166) ;
-    border: none;
-    border-radius: 15px;
-    margin-top: 40px;
-    font-size: 20px;
-    font-weight: bold;
-    color: #fff;
-    box-shadow: 1px 5px 10px gray;
+.maindiv1 input{
+    margin-top: 20px;
+    width: 500px;
+    padding: 15px;
+    padding-left: 25px;
+    border-radius: 30px;
+    border: 1px solid rgb(231, 229, 229);
+    box-shadow: 1px 1px 5px black;
 }
-.maindiv3 button:hover{
-    opacity: 0.9;
-    transform: scale(1.05);
-    cursor: pointer;
+.maindiv1 input:focus{
+    box-shadow: 3px 3px 10px rgb(0, 183, 255);
+    border-color: aqua;
 }
-.maindiv4{
+.maindiv2{
     background-color: rgb(244, 255, 255);
-    width: 100%;
-    height: 150px;;
 }
+.row1{
+    display: flex;
+    flex-wrap: nowrap;
+    background: #fff;
+    width: 250px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    padding: 15px;
+}
+.box1{
+
+}
+/* navbar end */
 .footer{
     background-color: #fff; 
     width: 100%;
