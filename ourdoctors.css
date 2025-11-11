@@ -133,6 +133,7 @@
     border-radius: 18px;
     box-shadow: 2px 2px 30px black;
     margin: 80px 40px;
+    transition: all ease-in-out 0.4s;
 }
 .box1 img,.box2 img,.box3 img,.box4 img,.box5 img,.box6 img{
     width: 100%;
@@ -175,6 +176,7 @@
     font-weight: bold;
     font-size: 16px;
     border: none;
+    transition: all ease-in-out 0.4s;
 }
 .boxtext button:hover{
     cursor: pointer;

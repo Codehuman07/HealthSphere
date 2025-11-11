@@ -189,7 +189,7 @@
     cursor: pointer;
     margin: 20px;
     margin-bottom: 40px;
-    box-shadow: 1px 5px 10px gray;
+    box-shadow: 2px 5px 10px gray;
     transition: all ease-in-out 0.4s;
 }
 .box1 p ,.box2 p,.box3 p,.box4 p,.box5 p,.box6 p{
