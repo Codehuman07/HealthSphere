@@ -77,6 +77,9 @@
     transform: scale(1.05);
 }
 /* navbar end  */
+.main{
+    width: 100%;
+}
 .homelanding{
     background-color:#fff;
     height: 100%;
@@ -90,7 +93,7 @@
 }
 .maindiv1 h1{
     color: #000000;
-    font-size: 60px;
+    font-size: 50px;
     margin-bottom: 6px;
 }
 .maindiv1 p{
@@ -105,14 +108,18 @@
     align-items: center;
 }
 .form{
-    border:2px solid black;
+    border:1px solid rgb(56, 56, 56);
     padding: 30px;
+    padding-bottom: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100%;
     width: fit-content;
+    border-radius: 14px;
+    margin: 8vh 0;
+    box-shadow: 2px 2px 20px black;
 }
 .form p{
     font-size: 20px;
@@ -123,7 +130,8 @@
 form{
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 10px;
+    justify-content: center;
 }
 input{
     border-radius: 14px;
@@ -144,22 +152,52 @@ textarea{
     height: 12vh;
     border: 1px solid rgb(231, 229, 229);
     box-shadow: 1px 1px 4px black;
+    margin-bottom: 38px;
 }
 textarea:focus{
     box-shadow:1px 1px 9px rgb(160, 255, 253) ;
 }
+select{
+    padding: 6px;
+    height: 4vh;
+    border-radius: 14px;
+    margin-bottom: 38px;
+    box-shadow: 1px 1px 4px black;
+}
+button{
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(49, 225, 166);
+    border-radius: 14px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 22px;
+    border: none;
+    transition: all ease-in-out 0.4s;
+    margin-top: 70px;
+    box-shadow: 1px 1px 5px black;
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
 .nameandage{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     gap: 3vw;
     margin-bottom:38px;
 }
 
 .datetime{
     display: flex;
+    justify-content: space-evenly;
+    gap: 3vw;
+    margin-bottom: 38px;
 }
 .emailphn{
     display: flex;
+    justify-content: space-evenly;
+    gap: 3vw;
 }
 /* footer start  */
 .footer{
