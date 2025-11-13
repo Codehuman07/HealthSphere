@@ -8,7 +8,7 @@
     position: fixed;
     background-color: rgb(255, 255, 255);
     width: 100%;
-    height:fit-content;
+    height:6vh;
     display: flex;
     align-items: center;
     justify-content:space-between;
@@ -28,7 +28,7 @@
     margin-right: 0px;
 }
 .logo img{
-    height: 100px;
+    height: 6vh;
     scale: 0.8;
 }
 .logo:hover{
@@ -39,24 +39,30 @@
     display: inline;
     flex-wrap: wrap;
     gap: 50px;
+    /* transition: all 0.4s ease-in; */
 }
+
 .pages a{
     height: 5vw;
     margin-bottom: 10vw;
     margin-left:1vw ;
     font-size: 1.25vw;
     display: inline;
-    padding: 8px 20px;
-    border-radius: 20px;
-    color: #ffffff;
+    padding: 2px 20px;
+    color: #000000;
     text-decoration: none;
-    background-color: rgb(80, 171, 245);
-    box-shadow: 2px 2px 5px gray;
-
+    background-color: #fff;
+    font-size: 20px;
+    border-bottom: none;
+    /* transition: all 8s ease; */
+    /* transition-duration: 8s;
+    transition-timing-function: ease-in; */
 }
 .pages a:hover{
     opacity: 0.8;
-    transform: scale(1.05);
+    border-bottom: 2px solid #000000;
+    transition: border-bottom 2s ease-in;
+    /* transform: scale(1.5); */
 }
 .login button{
     box-shadow: 2px 2px 5px gray;
@@ -78,6 +84,8 @@
 }
 /* navbar end */
 .main{
+    position: absolute;
+    top: 6vh;
     width: 100%;
 }
 .homelanding{

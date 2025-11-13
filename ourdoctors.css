@@ -8,18 +8,19 @@
     position: fixed;
     background-color: rgb(255, 255, 255);
     width: 100%;
-    height:fit-content;
+    height:6vh;
     display: flex;
     align-items: center;
     justify-content:space-between;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     box-shadow: 2px 2px 25px gray;
     z-index: 100;
     opacity: 0.95;
+    
 }
 .main{
     position: absolute;
-    top: 102px;
+    top: 6vh;
     width: 100%;
 
 }
@@ -28,7 +29,7 @@
     margin-right: 0px;
 }
 .logo img{
-    height: 100px;
+    height: 6vh;
     scale: 0.8;
 }
 .logo:hover{
