@@ -153,9 +153,6 @@ form p{
 #rememberme{
     box-shadow: none;
 }
-.rememberandforgot label{
-    /* margin-right:30px; */
-}
 form button{
     margin-top:15px;
     padding: 10px;
