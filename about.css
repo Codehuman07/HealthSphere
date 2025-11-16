@@ -174,8 +174,10 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding: 50px;
+    /* padding: 50px; */
     /* align-items: center; */
+    padding: 30px 0 0 0 ;
+    /* margin-bottom: 1/auto; */
 }
 .maindiv4 h1{
     font-size: 40px;
@@ -184,7 +186,7 @@
 .components2{
     display: flex;
     justify-content: space-around;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 .components2 h2{
     margin-bottom: 12px;
@@ -198,11 +200,12 @@
     color: grey;
 }
 .box5,.box6,.box7{
+    width: 30%;
     border: 1px solid rgb(231, 229, 229);
     box-shadow: 1px 1px 4px black;
     background-color: rgb(254, 254, 254);
-    padding: 30px;
     box-sizing: border-box;
+    padding: 30px 0;
     border-radius: 30px;
     transition: all ease-in-out 0.4s;
 }
@@ -212,6 +215,7 @@
     display: flex;
     justify-content: space-around;
     margin-bottom: 10vh;
+    /* margin-top: 10vh; */
 }
 .maindiv5 h1{
     font-size: 38px;
