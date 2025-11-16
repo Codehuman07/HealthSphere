@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+}
+/* navbar start  */
+.navbar{
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height:6vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    /* box-sizing: border-box; */
+    box-shadow: 2px 2px 25px gray;
+    z-index: 100;
+    opacity: 0.97;
+}
+.main{
+    position: absolute;
+    top: 6vh;
+    width: 100%;
+
+}
+.logo{
+    margin-left: 25px;
+    margin-right: 0px;
+}
+.logo img{
+    height: 6vh;
+    scale: 0.8;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.pages{
+    font-size: 1.25rem;
+    display: inline;
+    flex-wrap: wrap;
+    gap: 50px;
+    /* transition: all 0.4s ease-in; */
+}
+
+.pages a{
+    height: 5vw;
+    margin-bottom: 10vw;
+    margin-left:1vw ;
+    font-size: 1.25vw;
+    display: inline;
+    padding: 2px 20px;
+    color: #000000;
+    text-decoration: none;
+    background-color: #fff;
+    font-size: 20px;
+    border-bottom: none;
+    /* transition: all 8s ease; */
+    /* transition-duration: 8s;
+    transition-timing-function: ease-in; */
+}
+.pages a:hover{
+    opacity: 0.8;
+    border-bottom: 2.5px solid rgb(0, 47, 255);
+    color: rgb(0, 47, 255);
+    /* transition: 2s ease-in; */
+    /* transform: scale(1.5); */
+}
+.login button{
+    box-shadow: 2px 2px 5px gray;
+    height: auto;
+    width: auto;
+    padding: 8px 20px;
+    font-size: 1.4rem;
+    margin: 20px;
+    margin-left: 125px;
+    background-color:rgb(80, 171, 245);
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+}
+.login button:hover{
+    opacity: 0.8; 
+    cursor:pointer;
+    transform: scale(1.05);
+}
+/* navbar end  */
+.main{
+    background-color: #fff;
+}
+.homelanding{
+    background-color:#fff;
+    
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+}
+.mainside{
+    width: 60%;
+    height: 100vh;
+    background-color: rgba(234, 234, 234, 0.743);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.box{
+    background-color:#fff;
+    padding: 30px;
+    width:20vw;
+    border-radius: 16px;
+    box-shadow: 1px 1px 8px rgb(138, 138, 138);
+
+}
+.box > img{
+    text-align: center;
+    width: 12vw;
+    margin-bottom: 12px;
+    padding-left: 70px;
+    /* padding-right:20px ; */
+}
+.loginandsignup{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(235, 235, 235, 0.471);
+    padding: 7px;
+    border-radius: 20px;
+}
+.loginandsignup h5{
+    background-color: rgb(222, 221, 221);
+    padding: 5px 40px;
+    border-radius: 40px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+input{
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 1px 1px 8px rgb(138, 138, 138);
+    margin: 10px 0;
+}
+form p{
+    margin-top: 5px;
+}
+.rmemberandforgot{
+
+}
+#rememberme{
+    box-shadow: none;
+}
+.rememberandforgot label{
+    margin-right:30px;
+}
+form button{
+    margin-top:15px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(49, 225, 166);
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 1px 1px 8px rgb(138, 138, 138);
+    cursor: pointer;
+    transition: all ease-in-out 0.4s;
+}
+form button:hover{
+    transform: scale(1.05);
+}
+.photoside{
+    width: 40%;
+    background-color: rgba(214, 255, 254, 0.714);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px;
+}
+
+.photo img{
+    width: 22vw;
+    box-shadow: 3px 3px 10px rgb(138, 138, 138);
+    border-radius: 30px;
+}
+.photo{
+    margin-bottom: 30px;
+}
+.headinganddesc h1{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}.headinganddesc p{
+    color: #797979;
+}

@@ -12,14 +12,14 @@
     display: flex;
     align-items: center;
     justify-content:space-between;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     box-shadow: 2px 2px 25px gray;
     z-index: 100;
     opacity: 0.97;
 }
 .main{
     position: absolute;
-    top: 102px;
+    top: 6vh;
     width: 100%;
 
 }
@@ -60,8 +60,9 @@
 }
 .pages a:hover{
     opacity: 0.8;
-    border-bottom: 2px solid #000000;
-    transition: border-bottom 2s ease-in;
+    border-bottom: 2.5px solid rgb(0, 47, 255);
+    color: rgb(0, 47, 255);
+    /* transition: 2s ease-in; */
     /* transform: scale(1.5); */
 }
 .login button{
