@@ -1,9 +1,9 @@
 *{
-    padding: 0;
     margin: 0;
-    font-family: Montserrat, sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
 }
-/* navbar start  */
 .navbar{
     position: fixed;
     background-color: rgb(255, 255, 255);
@@ -83,7 +83,127 @@
     cursor:pointer;
     transform: scale(1.05);
 }
-/* navbar end  */
+/* HEADER */
+.contact-header{
+    padding: 120px 20px 60px;
+    text-align: center;
+    background: linear-gradient(90deg,#66d0ff40,#98ffd940);
+}
+
+.contact-header h1{
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.contact-header p{
+    margin-top: 10px;
+    font-size: 18px;
+    color: #555;
+}
+
+/* MAIN CONTAINER */
+.contact-container{
+    width: 90%;
+    max-width: 1300px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+/* FORM BOX */
+.contact-form{
+    background: #fff;
+    padding: 35px;
+    flex: 1;
+    min-width: 350px;
+    border-radius: 18px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.contact-form h2{
+    margin-bottom: 25px;
+}
+
+.contact-form label{
+    display: block;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width: 100%;
+    padding: 12px 14px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.contact-form textarea{
+    height: 130px;
+    resize: none;
+}
+
+.send-btn{
+    width: 100%;
+    background: linear-gradient(to right,#4db5ff,#30ffab);
+    border: none;
+    padding: 14px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 22px;
+    cursor: pointer;
+}
+.send-btn:hover{
+    opacity: .9;
+}
+
+/* RIGHT INFO BOX */
+.contact-info{
+    background: #fff;
+    padding: 35px;
+    flex: 1;
+    min-width: 350px;
+    border-radius: 18px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.contact-info h2{
+    margin-bottom: 25px;
+}
+
+.info-item{
+    display: flex;
+    gap: 18px;
+    margin: 20px 0;
+}
+
+.info-item i{
+    font-size: 28px;
+    color: #4db5ff;
+    padding: 10px;
+    background: #dffff8;
+    border-radius: 12px;
+}
+
+.info-item h4{
+    font-size: 18px;
+}
+
+.info-item p{
+    color: #555;
+}
+
+.info-item span{
+    font-size: 13px;
+    color: #30b8ff;
+}
+
+/* footer end  */
 .footer{
     background-color: #fff;
     width: 100%;
