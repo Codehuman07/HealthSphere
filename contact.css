@@ -12,7 +12,7 @@
     display: flex;
     align-items: center;
     justify-content:space-between;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     box-shadow: 2px 2px 25px gray;
     z-index: 100;
     opacity: 0.97;
@@ -37,7 +37,6 @@
 .pages{
     font-size: 1.25rem;
     display: inline;
-    flex-wrap: wrap;
     gap: 50px;
     /* transition: all 0.4s ease-in; */
 }
@@ -87,7 +86,7 @@
 .contact-header{
     padding: 120px 20px 60px;
     text-align: center;
-    background: linear-gradient(90deg,#66d0ff40,#98ffd940);
+    background: rgba(189, 249, 247, 0.756);
 }
 
 .contact-header h1{
@@ -149,7 +148,7 @@
 
 .send-btn{
     width: 100%;
-    background: linear-gradient(to right,#4db5ff,#30ffab);
+    background-color: #4db5ff;
     border: none;
     padding: 14px;
     border-radius: 20px;
@@ -157,19 +156,20 @@
     font-size: 16px;
     margin-top: 22px;
     cursor: pointer;
+    transition: all 0.4s ease-in-out;
 }
 .send-btn:hover{
-    opacity: .9;
+    opacity: 0.9;
+    transform: scale(1.05);
 }
 
 /* RIGHT INFO BOX */
 .contact-info{
     background: #fff;
     padding: 35px;
-    flex: 1;
     min-width: 350px;
     border-radius: 18px;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 20px rgba(197, 197, 197, 0.39);
 }
 
 .contact-info h2{
@@ -276,5 +276,4 @@ hr{
     padding: 5px;
 }
 /* footer end  */
-
 
