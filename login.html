@@ -35,7 +35,8 @@
                     </div>
                     <form action="#">
                         <p>Email:</p>
-                        <input type="email" placeholder="your.email@example.com">
+                        <input type="email" id="email" placeholder="your.email@example.com">
+                        <p id="emailerror" style="color: red;"></p>
                         <p>Password:</p>
                         <input type="password" placeholder="Enter your password">
                         <div class="rememberandforgot">
@@ -60,6 +61,17 @@
             </div>
         </div>
     </div>
+<script>
+    let inputemail = document.getElementById("email");
+    let text = document.getElementById('emailerror')
+    inputemail.addEventListener("input", function () {
+        if (inputemail.value.includes("@")) {
+            text.textContent = "";
+        } else {
+            text.textContent = "Invalid email";
+        }
+    });
+</script>
 </body>
 </html>
 

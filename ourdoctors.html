@@ -30,6 +30,11 @@
                 <h1>Our Specialists</h1>
                 <p>Connect with certified doctors across various specializations for expert medical consultation</p>
                 <input type="text" name="" id="searchbar" placeholder="Search by doctor's name or Specialization">
+                <div style="width:500px;margin:10px auto;">
+                    <p id="s1"></p>
+                    <p id="s2"></p>
+                    <p id="s3"></p>
+                </div>
             </div>
             <div class="maindiv2">
                 <div class="row1">
@@ -128,5 +133,18 @@
             </div>
         </div>
     </div>
+<button id="backToTop">↑</button>
+<script>
+document.getElementById("searchbar").oninput = function() {
+    const v = this.value;
+    document.getElementById("s1").innerText = v;
+    document.getElementById("s2").innerText = v;
+    document.getElementById("s3").innerText = v;
+
+};
+    document.getElementById("backToTop").onclick = function () {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    };
+</script>
 </body>
 </html>

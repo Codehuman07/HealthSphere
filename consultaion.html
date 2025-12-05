@@ -65,6 +65,7 @@
                             <div>
                                 <p>Email Address*</p>
                                 <input type="email" id="email" placeholder="email@gmail.com">
+                                <p id="emailerror" style="color: red;"></p>
                             </div>
                             <div>
                                 <p>Phone Number*</p>
@@ -105,5 +106,22 @@
             </div>
         </div>
     </div>
+<button id="backToTop">↑</button>
+<script>
+    document.getElementById("backToTop").onclick = function () {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    };
+    let inputemail = document.getElementById("email");
+    let text = document.getElementById('emailerror')
+
+    inputemail.addEventListener("input", function () {
+        if (inputemail.value.includes("@")) {
+            text.textContent = "";
+        } else {
+            text.textContent = "Invalid email";
+        }
+    });
+</script>
+
 </body>
 </html>

@@ -45,7 +45,8 @@
                 <label>Name *</label>
                 <input type="text" placeholder="Your full name">
                 <label>Email *</label>
-                <input type="email" placeholder="your.email@example.com">
+                <input type="email" id="email" placeholder="your.email@example.com">
+                <p id="emailerror" style="color: red;"></p>
                 <label>Message *</label>
                 <textarea placeholder="How can we help you?"></textarea>
                 <button class="send-btn">Send Message</button>
@@ -106,6 +107,20 @@
             <p>&copy;2024 HealthSphere. All rights reserved.</p>
         </div>
     </div>
-
+<button id="backToTop">↑</button>
+<script>
+    document.getElementById("backToTop").onclick = function () {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    };
+    let inputemail = document.getElementById("email");
+    let text = document.getElementById('emailerror')
+    inputemail.addEventListener("input", function () {
+        if (inputemail.value.includes("@")) {
+            text.textContent = "";
+        } else {
+            text.textContent = "Invalid email";
+        }
+    });
+</script>
 </body>
 </html>

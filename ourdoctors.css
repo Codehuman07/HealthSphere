@@ -266,3 +266,27 @@ hr{
     padding: 5px;
 }
 /* footer end  */
+#backToTop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: rgb(80, 171, 245);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+    transition: background-color 0.3s ease;
+}
+
+#backToTop:hover {
+    background-color: rgb(49, 225, 166);
+}
+
+#s1, #s2, #s3 {
+    padding: 5px;
+    color: black;
+}
