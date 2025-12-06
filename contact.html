@@ -112,8 +112,10 @@
     document.getElementById("backToTop").onclick = function () {
         window.scrollTo({ top: 0, behavior: "smooth" });
     };
+
     let inputemail = document.getElementById("email");
-    let text = document.getElementById('emailerror')
+    let text = document.getElementById("emailerror");
+
     inputemail.addEventListener("input", function () {
         if (inputemail.value.includes("@")) {
             text.textContent = "";
@@ -121,6 +123,11 @@
             text.textContent = "Invalid email";
         }
     });
+
+    document.querySelector(".send-btn").addEventListener("click", function() {
+        alert("Your message has been submitted!");
+    });
+
 </script>
 </body>
 </html>
